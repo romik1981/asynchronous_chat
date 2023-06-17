@@ -22,7 +22,3 @@ ACCOUNT_NAME = 'account_name'
 PRESENCE = 'presence'
 RESPONSE = 'response'
 ERROR = 'error'
-
-
-def LOGGING_LEVEL():
-    return None
