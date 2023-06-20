@@ -1,50 +1,18 @@
-2023-06-18 17:12:20,390 DEBUG decos.py Была вызвана функция create_arg_parser c параметрами (), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
-2023-06-18 17:12:20,391 INFO server.py Запущен сервер, порт для подключений: 7777, адрес, с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
-2023-06-18 17:12:26,216 INFO server.py Установлено соедение с ПК ('127.0.0.1', 52657)
-2023-06-18 17:12:26,222 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52657)>,), {}. Вызов из модуля common.utils. Вызов из функции main().Вызов из функции main
-2023-06-18 17:12:26,223 DEBUG server.py Получено сообщение {'action': 'presence', 'time': 1687097546.2167084, 'user': {'account_name': 'Guest'}}
-2023-06-18 17:12:26,224 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1687097546.2167084, 'user': {'account_name': 'Guest'}}
-2023-06-18 17:12:26,226 DEBUG decos.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1687097546.2167084, 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
-2023-06-18 17:12:26,227 INFO server.py Cформирован ответ клиенту {'response': 200}
-2023-06-18 17:12:26,229 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52657)>, {'response': 200}), {}. Вызов из модуля common.utils. Вызов из функции main().Вызов из функции main
-2023-06-18 17:12:26,229 DEBUG server.py Соединение с клиентом ('127.0.0.1', 52657) закрывается.
-2023-06-18 17:13:57,044 DEBUG server.py Была вызвана функция create_arg_parser c параметрами (), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
-2023-06-18 17:13:57,044 INFO server.py Запущен сервер, порт для подключений: 7777, адрес, с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
-2023-06-18 17:14:00,544 INFO server.py Установлено соедение с ПК ('127.0.0.1', 52667)
-2023-06-18 17:14:00,546 DEBUG server.py Была вызвана функция get_message c параметрами (<socket.socket fd=492, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52667)>,), {}. Вызов из модуля common.utils. Вызов из функции main().Вызов из функции main
-2023-06-18 17:14:00,547 DEBUG server.py Получено сообщение {'action': 'presence', 'time': 1687097640.5441794, 'user': {'account_name': 'Guest'}}
-2023-06-18 17:14:00,547 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1687097640.5441794, 'user': {'account_name': 'Guest'}}
-2023-06-18 17:14:00,549 DEBUG server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1687097640.5441794, 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
-2023-06-18 17:14:00,549 INFO server.py Cформирован ответ клиенту {'response': 200}
-2023-06-18 17:14:00,550 DEBUG server.py Была вызвана функция send_message c параметрами (<socket.socket fd=492, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52667)>, {'response': 200}), {}. Вызов из модуля common.utils. Вызов из функции main().Вызов из функции main
-2023-06-18 17:14:00,551 DEBUG server.py Соединение с клиентом ('127.0.0.1', 52667) закрывается.
-2023-06-18 17:15:57,951 CRITICAL config_server_log.py Критическая ошибка
-2023-06-18 17:15:57,952 ERROR config_server_log.py Ошибка
-2023-06-18 17:15:57,952 DEBUG config_server_log.py Отладочная информация
-2023-06-18 17:15:57,953 INFO config_server_log.py Информационное сообщение
-2023-06-18 17:18:26,688 DEBUG test_client.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}. Вызов из модуля client. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_200_ans
-2023-06-18 17:18:26,692 DEBUG test_client.py Была вызвана функция process_ans c параметрами ({'response': 400, 'error': 'Bad Request'},), {}. Вызов из модуля client. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_400_ans
-2023-06-18 17:18:26,697 DEBUG test_client.py Была вызвана функция create_presence c параметрами (), {}. Вызов из модуля client. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_def_presense
-2023-06-18 17:18:37,830 DEBUG server.py Разбор сообщения от клиента : {'time': '1.1', 'user': {'account_name': 'Guest'}}
-2023-06-18 17:18:37,868 DEBUG test_server.py Была вызвана функция process_client_message c параметрами ({'time': '1.1', 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля server. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_no_action
-2023-06-18 17:18:37,869 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'user': {'account_name': 'Guest'}}
-2023-06-18 17:18:37,873 DEBUG test_server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля server. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_no_time
-2023-06-18 17:18:37,874 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': '1.1'}
-2023-06-18 17:18:37,880 DEBUG test_server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': '1.1'},), {}. Вызов из модуля server. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_no_user
-2023-06-18 17:18:37,880 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1.1, 'user': {'account_name': 'Guest'}}
-2023-06-18 17:18:37,884 DEBUG test_server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1.1, 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля server. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_ok_check
-2023-06-18 17:18:37,885 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1.1, 'user': {'account_name': 'Guest1'}}
-2023-06-18 17:18:37,889 DEBUG test_server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1.1, 'user': {'account_name': 'Guest1'}},), {}. Вызов из модуля server. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_unknown_user
-2023-06-18 17:18:37,890 DEBUG server.py Разбор сообщения от клиента : {'action': 'Wrong', 'time': '1.1', 'user': {'account_name': 'Guest'}}
-2023-06-18 17:18:37,897 DEBUG test_server.py Была вызвана функция process_client_message c параметрами ({'action': 'Wrong', 'time': '1.1', 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля server. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_wrong_action
-2023-06-18 17:18:46,909 DEBUG test_utils.py Была вызвана функция get_message c параметрами (<test_utils.TestSocket object at 0x0000026FB112C910>,), {}. Вызов из модуля common.utils. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_get_message
-2023-06-18 17:18:46,913 DEBUG test_utils.py Была вызвана функция get_message c параметрами (<test_utils.TestSocket object at 0x0000026FB112C970>,), {}. Вызов из модуля common.utils. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_get_message
-2023-06-18 17:18:46,919 DEBUG test_utils.py Была вызвана функция send_message c параметрами (<test_utils.TestSocket object at 0x0000026FB112C910>, {'action': 'presence', 'time': 111111.111111, 'user': {'account_name': 'test_test'}}), {}. Вызов из модуля common.utils. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_send_message
-2023-06-18 17:19:06,855 INFO server.py Установлено соедение с ПК ('127.0.0.1', 52698)
-2023-06-18 17:19:06,857 DEBUG server.py Была вызвана функция get_message c параметрами (<socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52698)>,), {}. Вызов из модуля common.utils. Вызов из функции main().Вызов из функции main
-2023-06-18 17:19:06,858 DEBUG server.py Получено сообщение {'action': 'presence', 'time': 1687097946.8551066, 'user': {'account_name': 'Guest'}}
-2023-06-18 17:19:06,858 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1687097946.8551066, 'user': {'account_name': 'Guest'}}
-2023-06-18 17:19:06,860 DEBUG server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1687097946.8551066, 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
-2023-06-18 17:19:06,860 INFO server.py Cформирован ответ клиенту {'response': 200}
-2023-06-18 17:19:06,862 DEBUG server.py Была вызвана функция send_message c параметрами (<socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52698)>, {'response': 200}), {}. Вызов из модуля common.utils. Вызов из функции main().Вызов из функции main
-2023-06-18 17:19:06,863 DEBUG server.py Соединение с клиентом ('127.0.0.1', 52698) закрывается.
+2023-06-20 22:08:50,673 DEBUG test_client.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}. Вызов из модуля client. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_200_ans
+2023-06-20 22:08:50,682 DEBUG test_client.py Была вызвана функция process_ans c параметрами ({'response': 400, 'error': 'Bad Request'},), {}. Вызов из модуля client. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_400_ans
+2023-06-20 22:08:50,690 DEBUG test_client.py Была вызвана функция create_presence c параметрами (), {}. Вызов из модуля client. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_def_presense
+2023-06-20 22:09:53,864 DEBUG server.py Разбор сообщения от клиента : {'time': '1.1', 'user': {'account_name': 'Guest'}}
+2023-06-20 22:09:53,927 DEBUG test_server.py Была вызвана функция process_client_message c параметрами ({'time': '1.1', 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля server. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_no_action
+2023-06-20 22:09:53,930 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'user': {'account_name': 'Guest'}}
+2023-06-20 22:09:53,932 DEBUG test_server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля server. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_no_time
+2023-06-20 22:09:53,934 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': '1.1'}
+2023-06-20 22:09:53,936 DEBUG test_server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': '1.1'},), {}. Вызов из модуля server. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_no_user
+2023-06-20 22:09:53,939 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1.1, 'user': {'account_name': 'Guest'}}
+2023-06-20 22:09:53,945 DEBUG test_server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1.1, 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля server. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_ok_check
+2023-06-20 22:09:53,947 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1.1, 'user': {'account_name': 'Guest1'}}
+2023-06-20 22:09:53,952 DEBUG test_server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1.1, 'user': {'account_name': 'Guest1'}},), {}. Вызов из модуля server. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_unknown_user
+2023-06-20 22:09:53,953 DEBUG server.py Разбор сообщения от клиента : {'action': 'Wrong', 'time': '1.1', 'user': {'account_name': 'Guest'}}
+2023-06-20 22:09:53,961 DEBUG test_server.py Была вызвана функция process_client_message c параметрами ({'action': 'Wrong', 'time': '1.1', 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля server. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_wrong_action
+2023-06-20 22:10:11,778 DEBUG test_utils.py Была вызвана функция get_message c параметрами (<test_utils.TestSocket object at 0x000002B8D990CA30>,), {}. Вызов из модуля common.utils. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_get_message
+2023-06-20 22:10:11,785 DEBUG test_utils.py Была вызвана функция get_message c параметрами (<test_utils.TestSocket object at 0x000002B8D990CA90>,), {}. Вызов из модуля common.utils. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_get_message
+2023-06-20 22:10:11,796 DEBUG test_utils.py Была вызвана функция send_message c параметрами (<test_utils.TestSocket object at 0x000002B8D990CA30>, {'action': 'presence', 'time': 111111.111111, 'user': {'account_name': 'test_test'}}), {}. Вызов из модуля common.utils. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_send_message
