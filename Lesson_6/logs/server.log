@@ -1,3 +1,21 @@
+2023-06-20 22:08:50,673 DEBUG test_client.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}. Вызов из модуля client. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_200_ans
+2023-06-20 22:08:50,682 DEBUG test_client.py Была вызвана функция process_ans c параметрами ({'response': 400, 'error': 'Bad Request'},), {}. Вызов из модуля client. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_400_ans
+2023-06-20 22:08:50,690 DEBUG test_client.py Была вызвана функция create_presence c параметрами (), {}. Вызов из модуля client. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_def_presense
+2023-06-20 22:09:53,864 DEBUG server.py Разбор сообщения от клиента : {'time': '1.1', 'user': {'account_name': 'Guest'}}
+2023-06-20 22:09:53,927 DEBUG test_server.py Была вызвана функция process_client_message c параметрами ({'time': '1.1', 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля server. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_no_action
+2023-06-20 22:09:53,930 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'user': {'account_name': 'Guest'}}
+2023-06-20 22:09:53,932 DEBUG test_server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля server. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_no_time
+2023-06-20 22:09:53,934 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': '1.1'}
+2023-06-20 22:09:53,936 DEBUG test_server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': '1.1'},), {}. Вызов из модуля server. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_no_user
+2023-06-20 22:09:53,939 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1.1, 'user': {'account_name': 'Guest'}}
+2023-06-20 22:09:53,945 DEBUG test_server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1.1, 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля server. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_ok_check
+2023-06-20 22:09:53,947 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1.1, 'user': {'account_name': 'Guest1'}}
+2023-06-20 22:09:53,952 DEBUG test_server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1.1, 'user': {'account_name': 'Guest1'}},), {}. Вызов из модуля server. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_unknown_user
+2023-06-20 22:09:53,953 DEBUG server.py Разбор сообщения от клиента : {'action': 'Wrong', 'time': '1.1', 'user': {'account_name': 'Guest'}}
+2023-06-20 22:09:53,961 DEBUG test_server.py Была вызвана функция process_client_message c параметрами ({'action': 'Wrong', 'time': '1.1', 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля server. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_wrong_action
+2023-06-20 22:10:11,778 DEBUG test_utils.py Была вызвана функция get_message c параметрами (<test_utils.TestSocket object at 0x000002B8D990CA30>,), {}. Вызов из модуля common.utils. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_get_message
+2023-06-20 22:10:11,785 DEBUG test_utils.py Была вызвана функция get_message c параметрами (<test_utils.TestSocket object at 0x000002B8D990CA90>,), {}. Вызов из модуля common.utils. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_get_message
+2023-06-20 22:10:11,796 DEBUG test_utils.py Была вызвана функция send_message c параметрами (<test_utils.TestSocket object at 0x000002B8D990CA30>, {'action': 'presence', 'time': 111111.111111, 'user': {'account_name': 'test_test'}}), {}. Вызов из модуля common.utils. Вызов из функции JB_DISABLE_BUFFERING)).Вызов из функции test_send_message
 2023-06-18 00:26:33,997 DEBUG decos.py Была вызвана функция create_arg_parser c параметрами (), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
 2023-06-18 00:26:33,997 INFO server.py Запущен сервер, порт для подключений: 7777, адрес, с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
 2023-06-18 00:26:42,221 INFO server.py Установлено соедение с ПК ('127.0.0.1', 61565)
