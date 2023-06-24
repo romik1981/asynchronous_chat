@@ -31,6 +31,7 @@ def log(func_to_log):
                      f' функции {traceback.format_stack()[0].strip().split()[-1]}.'
                      f'Вызов из функции {inspect.stack()[1][3]}', stacklevel=2)
                      f'Вызов из функции {inspect.stack()[1][3]}')
+         main
         return ret
     return log_saver
 
