@@ -1,0 +1,171 @@
+2023-06-29 20:21:51,675 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2023-06-29 20:21:51,700 CRITICAL descrptrs.py Попытка запуска сервера с указанием неподходящего порта 70000. Допустимы адреса с 1024 до 65535.
+2023-06-29 20:22:38,227 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2023-06-29 20:22:38,250 CRITICAL descrptrs.py Попытка запуска сервера с указанием неподходящего порта 70000. Допустимы адреса с 1024 до 65535.
+2023-06-29 20:23:29,652 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2023-06-29 20:23:29,674 CRITICAL descrptrs.py Попытка запуска сервера с указанием неподходящего порта 70000. Допустимы адреса с 1024 до 65535.
+2023-06-29 20:24:26,734 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2023-06-29 20:24:26,776 CRITICAL descrptrs.py Попытка запуска сервера с указанием неподходящего порта 70000. Допустимы адреса с 1024 до 65535.
+2023-06-29 20:24:59,359 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2023-06-29 20:24:59,410 CRITICAL descrptrs.py Попытка запуска сервера с указанием неподходящего порта 70000. Допустимы адреса с 1024 до 65535.
+2023-06-29 20:34:39,583 CRITICAL config_server_log.py Test critical event
+2023-06-29 20:34:39,583 ERROR config_server_log.py Test error ivent
+2023-06-29 20:34:39,584 DEBUG config_server_log.py Test debug ivent
+2023-06-29 20:34:39,584 INFO config_server_log.py Test info ivent
+2023-06-29 20:34:52,125 CRITICAL config_server_log.py Test critical event
+2023-06-29 20:34:52,125 ERROR config_server_log.py Test error ivent
+2023-06-29 20:34:52,126 DEBUG config_server_log.py Test debug ivent
+2023-06-29 20:34:52,126 INFO config_server_log.py Test info ivent
+2023-06-29 21:02:46,522 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2023-06-29 21:03:33,239 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2023-06-29 21:05:49,640 INFO server.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-06-29 21:06:03,792 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2023-06-29 21:06:18,958 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2023-06-29 21:06:19,005 CRITICAL descrptrs.py Попытка запуска сервера с указанием неподходящего порта 70000. Допустимы адреса с 1024 до 65535.
+2023-06-29 21:07:35,323 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2023-06-29 21:07:35,345 INFO server.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-06-29 21:07:50,331 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2023-06-29 21:07:50,362 INFO server.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-06-29 21:08:09,891 INFO server.py Установлено соедение с ПК ('127.0.0.1', 56862)
+2023-06-29 21:08:09,892 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56862)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:08:09,892 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688062089.8911653, 'user': {'account_name': 'test1'}}
+2023-06-29 21:08:09,893 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56862)>, {'response': 200}) , {}. Вызов из модуля common.utils
+2023-06-29 21:08:31,761 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56862)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:08:31,762 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test1', 'to': 'hi', 'time': 1688062111.4802392, 'mess_text': '1'}
+2023-06-29 21:08:31,764 ERROR server.py Пользователь hi не зарегистрирован на сервере, отправка сообщения невозможна.
+2023-06-29 21:08:36,363 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56862)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:08:36,365 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1688062116.0611918, 'account_name': 'test1'}
+2023-06-29 21:08:36,366 INFO server.py Клиент ('127.0.0.1', 56862) отключился от сервера.
+2023-06-29 21:09:44,359 INFO server.py Установлено соедение с ПК ('127.0.0.1', 56894)
+2023-06-29 21:09:44,382 INFO server.py Установлено соедение с ПК ('127.0.0.1', 56895)
+2023-06-29 21:09:44,382 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56894)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:09:44,384 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688062184.3598518, 'user': {'account_name': 'test3'}}
+2023-06-29 21:09:44,384 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56894)>, {'response': 200}) , {}. Вызов из модуля common.utils
+2023-06-29 21:09:44,402 INFO server.py Установлено соедение с ПК ('127.0.0.1', 56896)
+2023-06-29 21:09:44,402 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56895)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:09:44,404 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688062184.382231, 'user': {'account_name': 'test4'}}
+2023-06-29 21:09:44,404 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56895)>, {'response': 200}) , {}. Вызов из модуля common.utils
+2023-06-29 21:09:44,454 INFO server.py Установлено соедение с ПК ('127.0.0.1', 56897)
+2023-06-29 21:09:44,455 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=472, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56896)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:09:44,456 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688062184.4027061, 'user': {'account_name': 'test2'}}
+2023-06-29 21:09:44,457 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=472, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56896)>, {'response': 200}) , {}. Вызов из модуля common.utils
+2023-06-29 21:09:44,521 INFO server.py Установлено соедение с ПК ('127.0.0.1', 56898)
+2023-06-29 21:09:44,522 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=460, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56897)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:09:44,524 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688062184.4549952, 'user': {'account_name': 'test5'}}
+2023-06-29 21:09:44,525 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=460, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56897)>, {'response': 200}) , {}. Вызов из модуля common.utils
+2023-06-29 21:09:45,026 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2023-06-29 21:09:45,036 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56898)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:09:45,037 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688062184.527829, 'user': {'account_name': 'test1'}}
+2023-06-29 21:09:45,038 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56898)>, {'response': 400, 'error': 'Имя пользователя уже занято.'}) , {}. Вызов из модуля common.utils
+2023-06-29 21:09:45,054 INFO server.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-06-29 21:11:10,093 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=472, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56896)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:11:10,093 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test2', 'to': 'test3', 'time': 1688062269.8312936, 'mess_text': 'hi'}
+2023-06-29 21:11:10,093 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56894)>, {'action': 'message', 'from': 'test2', 'to': 'test3', 'time': 1688062269.8312936, 'mess_text': 'hi'}) , {}. Вызов из модуля common.utils
+2023-06-29 21:11:10,096 INFO server.py Отправлено сообщение пользователю test3 от пользователя test2.
+2023-06-29 21:11:38,073 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56895)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:11:38,073 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test4', 'to': 'test3', 'time': 1688062297.9895632, 'mess_text': 'hello'}
+2023-06-29 21:11:38,073 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56894)>, {'action': 'message', 'from': 'test4', 'to': 'test3', 'time': 1688062297.9895632, 'mess_text': 'hello'}) , {}. Вызов из модуля common.utils
+2023-06-29 21:11:38,076 INFO server.py Отправлено сообщение пользователю test3 от пользователя test4.
+2023-06-29 21:12:35,494 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=460, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56897)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:12:35,494 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test5', 'to': 'test1', 'time': 1688062355.3304453, 'mess_text': 'go'}
+2023-06-29 21:12:35,495 INFO server.py Связь с клиентом с именем test1 была потеряна
+2023-06-29 21:13:28,003 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2023-06-29 21:13:28,011 INFO server.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-06-29 21:14:32,029 INFO server.py Установлено соедение с ПК ('127.0.0.1', 56960)
+2023-06-29 21:14:32,536 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=696, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56960)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:14:32,538 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688062472.0297077, 'user': {'account_name': 'test1'}}
+2023-06-29 21:14:32,539 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=696, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56960)>, {'response': 200}) , {}. Вызов из модуля common.utils
+2023-06-29 21:14:47,079 INFO server.py Установлено соедение с ПК ('127.0.0.1', 56965)
+2023-06-29 21:14:47,595 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=888, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56965)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:14:47,598 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688062487.0794046, 'user': {'account_name': 'test2'}}
+2023-06-29 21:14:47,599 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=888, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56965)>, {'response': 200}) , {}. Вызов из модуля common.utils
+2023-06-29 21:15:15,150 INFO server.py Установлено соедение с ПК ('127.0.0.1', 56969)
+2023-06-29 21:15:15,665 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=936, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56969)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:15:15,666 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688062515.1500833, 'user': {'account_name': 'test3'}}
+2023-06-29 21:15:15,667 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=936, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56969)>, {'response': 200}) , {}. Вызов из модуля common.utils
+2023-06-29 21:15:19,284 INFO server.py Установлено соедение с ПК ('127.0.0.1', 56973)
+2023-06-29 21:15:19,798 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=948, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56973)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:15:19,799 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688062519.2842002, 'user': {'account_name': 'test4'}}
+2023-06-29 21:15:19,800 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=948, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56973)>, {'response': 200}) , {}. Вызов из модуля common.utils
+2023-06-29 21:15:22,123 INFO server.py Установлено соедение с ПК ('127.0.0.1', 56977)
+2023-06-29 21:15:22,628 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=960, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56977)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:15:22,628 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688062522.1239886, 'user': {'account_name': 'test5'}}
+2023-06-29 21:15:22,631 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=960, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56977)>, {'response': 200}) , {}. Вызов из модуля common.utils
+2023-06-29 21:15:59,799 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=696, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56960)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:15:59,801 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test1', 'to': 'test5', 'time': 1688062559.4046333, 'mess_text': 'hi'}
+2023-06-29 21:15:59,802 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=960, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56977)>, {'action': 'message', 'from': 'test1', 'to': 'test5', 'time': 1688062559.4046333, 'mess_text': 'hi'}) , {}. Вызов из модуля common.utils
+2023-06-29 21:15:59,805 INFO server.py Отправлено сообщение пользователю test5 от пользователя test1.
+2023-06-29 21:16:24,733 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=696, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56960)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:16:24,733 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test1', 'to': 'test7', 'time': 1688062584.4242463, 'mess_text': 'r'}
+2023-06-29 21:16:24,736 ERROR server.py Пользователь test7 не зарегистрирован на сервере, отправка сообщения невозможна.
+2023-06-29 21:17:30,844 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=696, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56960)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:17:30,844 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test1', 'to': 'test3', 'time': 1688062650.5070796, 'mess_text': 'world'}
+2023-06-29 21:17:30,844 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=936, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56969)>, {'action': 'message', 'from': 'test1', 'to': 'test3', 'time': 1688062650.5070796, 'mess_text': 'world'}) , {}. Вызов из модуля common.utils
+2023-06-29 21:17:30,849 INFO server.py Отправлено сообщение пользователю test3 от пользователя test1.
+2023-06-29 21:17:40,517 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=696, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56960)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:17:40,517 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1688062660.396134, 'account_name': 'test1'}
+2023-06-29 21:17:40,520 INFO server.py Клиент ('127.0.0.1', 56960) отключился от сервера.
+2023-06-29 21:18:47,300 INFO server.py Установлено соедение с ПК ('127.0.0.1', 57005)
+2023-06-29 21:18:47,305 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=952, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57005)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:18:47,306 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688062727.3004742, 'user': {'account_name': 'test1'}}
+2023-06-29 21:18:47,307 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=952, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57005)>, {'response': 400, 'error': 'Имя пользователя уже занято.'}) , {}. Вызов из модуля common.utils
+2023-06-29 21:18:47,310 INFO server.py Установлено соедение с ПК ('127.0.0.1', 57006)
+2023-06-29 21:18:47,314 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=952, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57006)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:18:47,315 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688062727.3004742, 'user': {'account_name': 'test2'}}
+2023-06-29 21:18:47,316 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=952, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57006)>, {'response': 400, 'error': 'Имя пользователя уже занято.'}) , {}. Вызов из модуля common.utils
+2023-06-29 21:18:47,358 INFO server.py Установлено соедение с ПК ('127.0.0.1', 57007)
+2023-06-29 21:18:47,376 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=952, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57007)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:18:47,378 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688062727.361033, 'user': {'account_name': 'test3'}}
+2023-06-29 21:18:47,379 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=952, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57007)>, {'response': 400, 'error': 'Имя пользователя уже занято.'}) , {}. Вызов из модуля common.utils
+2023-06-29 21:18:47,872 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2023-06-29 21:18:47,897 INFO server.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-06-29 21:19:20,532 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=960, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56977)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:19:20,533 INFO server.py Клиент ('127.0.0.1', 56977) отключился от сервера.
+2023-06-29 21:19:22,054 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=948, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56973)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:19:22,055 INFO server.py Клиент ('127.0.0.1', 56973) отключился от сервера.
+2023-06-29 21:19:23,071 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=936, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56969)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:19:23,074 INFO server.py Клиент ('127.0.0.1', 56969) отключился от сервера.
+2023-06-29 21:19:28,166 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=888, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56965)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:19:28,168 INFO server.py Клиент ('127.0.0.1', 56965) отключился от сервера.
+2023-06-29 21:19:44,240 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2023-06-29 21:19:44,262 INFO server.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-06-29 21:19:44,265 INFO server.py Установлено соедение с ПК ('127.0.0.1', 57019)
+2023-06-29 21:19:44,267 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57019)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:19:44,268 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688062784.2652934, 'user': {'account_name': 'test2'}}
+2023-06-29 21:19:44,268 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57019)>, {'response': 200}) , {}. Вызов из модуля common.utils
+2023-06-29 21:19:44,269 INFO server.py Установлено соедение с ПК ('127.0.0.1', 57020)
+2023-06-29 21:19:44,271 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57020)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:19:44,271 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688062784.2652934, 'user': {'account_name': 'test1'}}
+2023-06-29 21:19:44,272 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57020)>, {'response': 200}) , {}. Вызов из модуля common.utils
+2023-06-29 21:19:44,722 INFO server.py Установлено соедение с ПК ('127.0.0.1', 57018)
+2023-06-29 21:19:44,723 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57018)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:19:44,725 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688062784.722834, 'user': {'account_name': 'test3'}}
+2023-06-29 21:19:44,726 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57018)>, {'response': 200}) , {}. Вызов из модуля common.utils
+2023-06-29 21:20:16,696 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57020)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:20:16,696 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test1', 'to': 'test3', 'time': 1688062816.2968378, 'mess_text': 'hi'}
+2023-06-29 21:20:16,696 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57018)>, {'action': 'message', 'from': 'test1', 'to': 'test3', 'time': 1688062816.2968378, 'mess_text': 'hi'}) , {}. Вызов из модуля common.utils
+2023-06-29 21:20:16,696 INFO server.py Отправлено сообщение пользователю test3 от пользователя test1.
+2023-06-29 21:20:41,131 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57019)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:20:41,132 INFO server.py Клиент ('127.0.0.1', 57019) отключился от сервера.
+2023-06-29 21:20:42,660 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57018)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:20:42,660 INFO server.py Клиент ('127.0.0.1', 57018) отключился от сервера.
+2023-06-29 21:20:43,676 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57020)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:20:43,677 INFO server.py Клиент ('127.0.0.1', 57020) отключился от сервера.
+2023-06-29 21:28:59,396 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2023-06-29 21:28:59,419 INFO server.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-06-29 21:28:59,884 INFO server.py Установлено соедение с ПК ('127.0.0.1', 57091)
+2023-06-29 21:28:59,885 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57091)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:28:59,887 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688063339.884157, 'user': {'account_name': 'test1'}}
+2023-06-29 21:28:59,889 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57091)>, {'response': 200}) , {}. Вызов из модуля common.utils
+2023-06-29 21:28:59,890 INFO server.py Установлено соедение с ПК ('127.0.0.1', 57092)
+2023-06-29 21:28:59,891 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57092)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:28:59,891 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688063339.884157, 'user': {'account_name': 'test2'}}
+2023-06-29 21:28:59,892 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57092)>, {'response': 200}) , {}. Вызов из модуля common.utils
+2023-06-29 21:28:59,928 INFO server.py Установлено соедение с ПК ('127.0.0.1', 57093)
+2023-06-29 21:28:59,931 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57093)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:28:59,932 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688063339.9287658, 'user': {'account_name': 'test3'}}
+2023-06-29 21:28:59,932 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57093)>, {'response': 200}) , {}. Вызов из модуля common.utils
+2023-06-29 21:29:22,737 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57091)>,) , {}. Вызов из модуля common.utils
+2023-06-29 21:29:22,738 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test1', 'to': 'test3', 'time': 1688063362.2668324, 'mess_text': 'hi'}
+2023-06-29 21:29:22,739 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57093)>, {'action': 'message', 'from': 'test1', 'to': 'test3', 'time': 1688063362.2668324, 'mess_text': 'hi'}) , {}. Вызов из модуля common.utils
+2023-06-29 21:29:22,740 INFO server.py Отправлено сообщение пользователю test3 от пользователя test1.
