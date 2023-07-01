@@ -8,6 +8,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Lesson_6/logs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Lesson_7" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Lesson_7/common" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lesson_10" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lesson_10/common" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.10 (asynchronous_chat)" jdkType="Python SDK" />
