@@ -1,5 +1,3 @@
-"""Константы"""
-
 import logging
 
 # Порт поумолчанию для сетевого ваимодействия
@@ -14,13 +12,16 @@ MAX_PACKAGE_LENGTH = 1024
 ENCODING = 'utf-8'
 # Текущий уровень логирования
 LOGGING_LEVEL = logging.DEBUG
+# База данных для хранения данных сервера:
+SERVER_CONFIG = 'server.ini'
 
 # Прококол JIM основные ключи:
 ACTION = 'action'
 TIME = 'time'
 USER = 'user'
 ACCOUNT_NAME = 'account_name'
-SENDER = 'sender'
+SENDER = 'from'
+DESTINATION = 'to'
 
 # Прочие ключи, используемые в протоколе
 PRESENCE = 'presence'
@@ -28,31 +29,23 @@ RESPONSE = 'response'
 ERROR = 'error'
 MESSAGE = 'message'
 MESSAGE_TEXT = 'mess_text'
+EXIT = 'exit'
+GET_CONTACTS = 'get_contacts'
+LIST_INFO = 'data_list'
+REMOVE_CONTACT = 'remove'
+ADD_CONTACT = 'add'
+USERS_REQUEST = 'get_users'
 
+# Словари - ответы:
+# 200
+RESPONSE_200 = {RESPONSE: 200}
+# 202
+RESPONSE_202 = {RESPONSE: 202,
+                LIST_INFO:None
+                }
+# 400
+RESPONSE_400 = {
+            RESPONSE: 400,
+            ERROR: None
+        }
 
-def DESTINATION():
-    return None
-
-
-def GET_CONTACTS():
-    return None
-
-
-def LIST_INFO():
-    return None
-
-
-def USERS_REQUEST():
-    return None
-
-
-def ADD_CONTACT():
-    return None
-
-
-def REMOVE_CONTACT():
-    return None
-
-
-def EXIT():
-    return None

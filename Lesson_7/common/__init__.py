@@ -1,0 +1,2 @@
+def errors():
+    return None

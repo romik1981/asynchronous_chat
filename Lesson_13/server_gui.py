@@ -1,6 +1,6 @@
 import sys
 from PyQt5.QtWidgets import QMainWindow, QAction, qApp, QApplication, QLabel, QTableView, QDialog, QPushButton, \
-    QLineEdit, QFileDialog, QMessageBox
+    QLineEdit, QFileDialog , QMessageBox
 from PyQt5.QtGui import QStandardItemModel, QStandardItem
 from PyQt5.QtCore import Qt
 import os
@@ -65,13 +65,12 @@ class MainWindow(QMainWindow):
         self.refresh_button = QAction('Обновить список', self)
 
         # Кнопка настроек сервера
-        self.config_btn = QAction('Настройки сервера', self)
+        self.config_btn = QAction('Настройки сервера' , self)
 
         # Кнопка вывести историю сообщений
         self.show_history_button = QAction('История клиентов', self)
 
         # Статусбар
-        # dock widget
         self.statusBar()
 
         # Тулбар
@@ -157,6 +156,7 @@ class ConfigWindow(QDialog):
             dialog = QFileDialog(self)
             path = dialog.getExistingDirectory()
             path = path.replace('/', '\\')
+            self.db_path.clear()
             self.db_path.insert(path)
 
         self.db_path_select.clicked.connect(open_file_dialog)
@@ -169,7 +169,7 @@ class ConfigWindow(QDialog):
         # Поле для ввода имени файла
         self.db_file = QLineEdit(self)
         self.db_file.move(200, 66)
-        self.db_file.setFixedSize(150, 20)
+        self.db_file.setFixedSize(150 , 20)
 
         # Метка с номером порта
         self.port_label = QLabel('Номер порта для соединений:', self)
@@ -197,8 +197,8 @@ class ConfigWindow(QDialog):
         self.ip.setFixedSize(150, 20)
 
         # Кнопка сохранения настроек
-        self.save_btn = QPushButton('Сохранить', self)
-        self.save_btn.move(190, 220)
+        self.save_btn = QPushButton('Сохранить' , self)
+        self.save_btn.move(190 , 220)
 
         # Кнапка закрытия окна
         self.close_button = QPushButton('Закрыть', self)
@@ -209,6 +209,7 @@ class ConfigWindow(QDialog):
 
 
 if __name__ == '__main__':
+    '''
     app = QApplication(sys.argv)
     ex = MainWindow()
     ex.statusBar().showMessage('Test Statusbar Message')
@@ -220,7 +221,7 @@ if __name__ == '__main__':
     ex.active_clients_table.resizeColumnsToContents()
     print('JKJKJK')
     app.exec_()
-    print('END')
+    print('END')'''
     app = QApplication(sys.argv)
     message = QMessageBox
     dial = ConfigWindow()
