@@ -336,3 +336,19 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+def stat_window():
+    return None
+
+
+def config_window():
+    return None
+
+
+def stat_window():
+    return None
+
+
+def stat_window():
+    return None

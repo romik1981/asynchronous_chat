@@ -18,3 +18,7 @@ def log(func_to_log):
         ret = func_to_log(*args , **kwargs)
         return ret
     return log_saver
+
+
+def login_required():
+    return None

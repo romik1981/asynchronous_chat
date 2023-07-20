@@ -56,3 +56,7 @@ def REMOVE_CONTACT():
 
 def EXIT():
     return None
+
+
+def RESPONSE_205():
+    return None

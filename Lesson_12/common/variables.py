@@ -49,3 +49,6 @@ RESPONSE_400 = {
             ERROR: None
         }
 
+
+def RESPONSE_205():
+    return None

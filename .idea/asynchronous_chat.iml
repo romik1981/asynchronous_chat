@@ -12,9 +12,14 @@
       <sourceFolder url="file://$MODULE_DIR$/Lesson_13/client" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Lesson_13/common" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Lesson_15" isTestSource="false" />
-      <excludeFolder url="file://$MODULE_DIR$/venv" />
+      <sourceFolder url="file://$MODULE_DIR$/Lesson_16/exe" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lesson_16/exe/server" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lesson_16/exe/server/common" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lesson_16/exe/server/server" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/venv_3.7" />
+      <excludeFolder url="file://$MODULE_DIR$/venv3.7" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.10 (asynchronous_chat)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.7 (venv3.7)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

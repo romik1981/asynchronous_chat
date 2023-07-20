@@ -1,0 +1,58 @@
+2023-07-19 15:48:20,300 DEBUG decos.py Была вызвана функция main c параметрами () , {}. Вызов из модуля __main__
+2023-07-19 15:48:20,302 DEBUG decos.py Была вызвана функция config_load c параметрами () , {}. Вызов из модуля __main__
+2023-07-19 15:48:20,305 DEBUG decos.py Была вызвана функция arg_parser c параметрами ('7777', '') , {}. Вызов из модуля __main__
+2023-07-19 15:48:20,305 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['C:/Users/Roman/PycharmProjects/asynchronous_chat/Lesson_16/exe/server/server.py']
+2023-07-19 15:48:20,327 DEBUG server.py Аргументы успешно загружены.
+2023-07-19 15:48:20,495 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-07-19 15:49:04,948 DEBUG decos.py Была вызвана функция main c параметрами () , {}. Вызов из модуля __main__
+2023-07-19 15:49:04,949 DEBUG decos.py Была вызвана функция config_load c параметрами () , {}. Вызов из модуля __main__
+2023-07-19 15:49:04,950 DEBUG decos.py Была вызвана функция arg_parser c параметрами ('7777', '') , {}. Вызов из модуля __main__
+2023-07-19 15:49:04,951 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['C:/Users/Roman/PycharmProjects/asynchronous_chat/Lesson_16/exe/server/server.py']
+2023-07-19 15:49:04,974 DEBUG server.py Аргументы успешно загружены.
+2023-07-19 15:49:05,023 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-07-19 15:49:48,707 DEBUG decos.py Была вызвана функция main c параметрами () , {}. Вызов из модуля __main__
+2023-07-19 15:49:48,708 DEBUG decos.py Была вызвана функция config_load c параметрами () , {}. Вызов из модуля __main__
+2023-07-19 15:49:48,709 DEBUG decos.py Была вызвана функция arg_parser c параметрами ('7777', '') , {}. Вызов из модуля __main__
+2023-07-19 15:49:48,710 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['C:/Users/Roman/PycharmProjects/asynchronous_chat/Lesson_16/exe/server/server.py']
+2023-07-19 15:49:48,737 DEBUG server.py Аргументы успешно загружены.
+2023-07-19 15:49:48,794 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-07-19 15:50:32,645 DEBUG decos.py Была вызвана функция main c параметрами () , {}. Вызов из модуля __main__
+2023-07-19 15:50:32,646 DEBUG decos.py Была вызвана функция config_load c параметрами () , {}. Вызов из модуля __main__
+2023-07-19 15:50:32,647 DEBUG decos.py Была вызвана функция arg_parser c параметрами ('7777', '') , {}. Вызов из модуля __main__
+2023-07-19 15:50:32,647 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['C:/Users/Roman/PycharmProjects/asynchronous_chat/Lesson_16/exe/server/server.py']
+2023-07-19 15:50:32,669 DEBUG server.py Аргументы успешно загружены.
+2023-07-19 15:50:32,718 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-07-20 00:28:13,710 DEBUG decos.py Была вызвана функция main c параметрами () , {}. Вызов из модуля __main__
+2023-07-20 00:28:13,711 DEBUG decos.py Была вызвана функция config_load c параметрами () , {}. Вызов из модуля __main__
+2023-07-20 00:28:13,720 DEBUG decos.py Была вызвана функция arg_parser c параметрами ('7777', '') , {}. Вызов из модуля __main__
+2023-07-20 00:28:13,720 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['C:/Users/Roman/PycharmProjects/asynchronous_chat/Lesson_16/exe/server/server.py']
+2023-07-20 00:28:13,722 DEBUG server.py Аргументы успешно загружены.
+2023-07-20 00:28:41,382 DEBUG decos.py Была вызвана функция main c параметрами () , {}. Вызов из модуля __main__
+2023-07-20 00:28:41,383 DEBUG decos.py Была вызвана функция config_load c параметрами () , {}. Вызов из модуля __main__
+2023-07-20 00:28:41,383 DEBUG decos.py Была вызвана функция arg_parser c параметрами ('7777', '') , {}. Вызов из модуля __main__
+2023-07-20 00:28:41,383 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['C:/Users/Roman/PycharmProjects/asynchronous_chat/Lesson_16/exe/server/server.py']
+2023-07-20 00:28:41,383 DEBUG server.py Аргументы успешно загружены.
+2023-07-20 00:32:02,196 DEBUG decos.py Была вызвана функция main c параметрами () , {}. Вызов из модуля __main__
+2023-07-20 00:32:02,196 DEBUG decos.py Была вызвана функция config_load c параметрами () , {}. Вызов из модуля __main__
+2023-07-20 00:32:02,198 DEBUG decos.py Была вызвана функция arg_parser c параметрами ('7777', '') , {}. Вызов из модуля __main__
+2023-07-20 00:32:02,199 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['C:/Users/Roman/PycharmProjects/asynchronous_chat/Lesson_16/exe/server/server.py']
+2023-07-20 00:32:02,228 DEBUG server.py Аргументы успешно загружены.
+2023-07-20 00:32:02,330 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-07-20 08:43:21,445 DEBUG decos.py Была вызвана функция main c параметрами () , {}. Вызов из модуля __main__
+2023-07-20 08:43:21,446 DEBUG decos.py Была вызвана функция config_load c параметрами () , {}. Вызов из модуля __main__
+2023-07-20 08:43:21,447 DEBUG decos.py Была вызвана функция arg_parser c параметрами ('7777', '') , {}. Вызов из модуля __main__
+2023-07-20 08:43:21,448 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['C:/Users/Roman/PycharmProjects/asynchronous_chat/Lesson_16/exe/server/server.py']
+2023-07-20 08:43:21,473 DEBUG server.py Аргументы успешно загружены.
+2023-07-20 08:43:21,522 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-07-20 08:43:47,261 INFO core.py Установлено соедение с ПК ('127.0.0.1', 56470)
+2023-07-20 08:43:47,771 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=1248, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56470)>,) , {}. Вызов из модуля common.utils
+2023-07-20 08:43:47,780 DEBUG core.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689831827.277313, 'user': {'account_name': 'roma', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwEfefdefuXWbvefYhK7M\n0eMRuFY0XF/+IVxgqmW6RoJUo2no/gNU0d3lA6H72cGVJ4Y5JbDru4l11u/Fz6oh\nxRmnrnO83NCEQHEUs4oPc3AMuwuf7s0nVwAE4D8xKs9IYUM5XyrEJol2/4oR8Ira\nH79a79KC9yJ/85QTVPX/8LcRDxUadhoL+TEjRIae9hxrv0WC/DFPZzNogqLjbWZv\nuwgzGGoPZ6cLDUTCXXeXOqivpluln7A2f7YnNh7ImjZ9Vfw9oZnLne37JjBrKhzF\n5qqv7GkOo5Ns27toYVZ9JyzpE3ZYUlehY57qiRoOlwNms3vhOV7gFOuiYf7igOq8\nNwIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-07-20 08:43:47,788 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=1248, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56470)>, {'response': 400, 'error': 'Пользователь не зарегистрирован.'}) , {}. Вызов из модуля common.utils
+2023-07-20 08:46:07,731 INFO core.py Установлено соедение с ПК ('127.0.0.1', 56500)
+2023-07-20 08:46:08,245 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=1608, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56500)>,) , {}. Вызов из модуля common.utils
+2023-07-20 08:46:08,246 DEBUG core.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689831967.747784, 'user': {'account_name': 'roma', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwEfefdefuXWbvefYhK7M\n0eMRuFY0XF/+IVxgqmW6RoJUo2no/gNU0d3lA6H72cGVJ4Y5JbDru4l11u/Fz6oh\nxRmnrnO83NCEQHEUs4oPc3AMuwuf7s0nVwAE4D8xKs9IYUM5XyrEJol2/4oR8Ira\nH79a79KC9yJ/85QTVPX/8LcRDxUadhoL+TEjRIae9hxrv0WC/DFPZzNogqLjbWZv\nuwgzGGoPZ6cLDUTCXXeXOqivpluln7A2f7YnNh7ImjZ9Vfw9oZnLne37JjBrKhzF\n5qqv7GkOo5Ns27toYVZ9JyzpE3ZYUlehY57qiRoOlwNms3vhOV7gFOuiYf7igOq8\nNwIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-07-20 08:46:08,254 INFO core.py Клиент ('127.0.0.1', 56500) отключился от сервера.
+2023-07-20 08:47:03,621 INFO core.py Установлено соедение с ПК ('127.0.0.1', 56504)
+2023-07-20 08:47:04,135 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=1608, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56504)>,) , {}. Вызов из модуля common.utils
+2023-07-20 08:47:04,136 DEBUG core.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689832023.6417933, 'user': {'account_name': 'roma', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwEfefdefuXWbvefYhK7M\n0eMRuFY0XF/+IVxgqmW6RoJUo2no/gNU0d3lA6H72cGVJ4Y5JbDru4l11u/Fz6oh\nxRmnrnO83NCEQHEUs4oPc3AMuwuf7s0nVwAE4D8xKs9IYUM5XyrEJol2/4oR8Ira\nH79a79KC9yJ/85QTVPX/8LcRDxUadhoL+TEjRIae9hxrv0WC/DFPZzNogqLjbWZv\nuwgzGGoPZ6cLDUTCXXeXOqivpluln7A2f7YnNh7ImjZ9Vfw9oZnLne37JjBrKhzF\n5qqv7GkOo5Ns27toYVZ9JyzpE3ZYUlehY57qiRoOlwNms3vhOV7gFOuiYf7igOq8\nNwIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-07-20 08:47:04,146 INFO core.py Клиент ('127.0.0.1', 56504) отключился от сервера.
